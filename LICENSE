@@ -1,21 +1,35 @@
-MIT License
 
-Copyright (c) 2023 silva17m
+<<section class=”teclado”>
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+<button class=”tecla tecla_pom”>Pom</button>
+<button class=”tecla tecla_clap”>Clap</button>
+<button class=”tecla tecla_tim”>Tim</button>
+<button class=”tecla tecla_puff”>Puff</button>
+<button class=”tecla tecla_splash”>Splash</button>
+<button class=”tecla tecla_toim”>Toim</button>
+<button class=”tecla tecla_psh”>Psh</button>
+<button class=”tecla tecla_tic”>Tic</button>
+<button class=”tecla tecla_tom”>Tom</button>
+</section>
+<audio  controls src=”sounds/keyq.wav” id=”som_tecla_pom”></audio>
+<audio controls src=”sounds/keyw.wav” id=”som_tecla_clap”></audio>
+<audio controls src=”sounds/keye.wav” id=”som_tecla_tim”></audio>
+<audio controls src=”sounds/keya.wav” id=”som_tecla_puff”></audio>
+<audio controls src=”sounds/keys.wav” id=”som_tecla_splash”></audio>
+<audio controls src=”sounds/keyd.wav” id=”som_tecla_toim”></audio>
+<audio controls src=”sounds/keyz.wav” id=”som_tecla_psh”></audio>
+<audio controls src=”sounds/keyx.wav” id=”som_tecla_tic”></audio>
+<audio controls src=”sounds/keyx.wav” id=”som_tecla_tic”></audio>
+<audio controls src=”sounds/keyc.wav” id=”som_tecla_tom”></audio>
+<audio src=”sounds/keyq.wav” id=” Css som_tecla_pom”></audio>
+<audio src=”sounds/keyw.wav” id=”som_tecla_clap”></audio>
+<audio src=”sounds/keye.wav” id=”som_tecla_tim”></audio>
+<audio src=”sounds/keya.wav” id=”som_tecla_puff”></audio>
+<audio src=”sounds/keys.wav” id=”som_tecla_splash”></audio>
+<audio src=”sounds/keyd.wav” id=”som_tecla_toim”></audio>
+<audio src=”sounds/keyz.wav” id=”som_tecla_psh”></audio>}
+<audio src=”sounds/keyx.wav” id=”som_tecla_tic”></audio>
+<audio src=”sounds/keyc.wav” id=”som_tecla_tom”></audio>
+<section class=”teclado”>
+<button onclick class=”tecla tecla_pom”>Pom</button>
+<button onclick=”alert(‘Pom’)” class=”tecla tecla_pom”>Pom</button>
